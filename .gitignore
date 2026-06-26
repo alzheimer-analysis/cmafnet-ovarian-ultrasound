@@ -1,0 +1,90 @@
+# Private medical data
+data/
+**/data/
+*.nii
+*.nii.gz
+*.dcm
+*.dicom
+*.mha
+*.mhd
+*.nrrd
+
+# Patient-level outputs and identifiers
+artifacts/splits/
+artifacts/checkpoints/
+artifacts/results/
+artifacts/**/*.pt
+artifacts/**/*.pth
+artifacts/**/*.ckpt
+artifacts/**/*.pkl
+artifacts/**/*.pickle
+artifacts/**/*.joblib
+artifacts/**/*.csv
+artifacts/**/*.jsonl
+
+# Keep non-sensitive configuration if needed
+!artifacts/
+!artifacts/config/
+!artifacts/config/*.yaml
+
+# Manuscript submission and local LaTeX workspace
+BSPC_submission/
+elsarticle/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# Generated manuscript figures and local drawing backups
+figures/
+paper/
+*.drawio
+*.drawio.bkp
+.$*
+
+# Model and experiment artifacts outside artifacts/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local notes and temporary files
+*.tmp
+*.bak
+*.backup
+*.local
+

@@ -1,0 +1,6 @@
+internal_total: 524
+external_total: 182
+internal_test: 105
+val_ratio: 0.15
+seed_internal: 524
+seed_external: 182
